@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+.flag {
+    /* colours the flag red */
+    background-color: rgb(206, 17, 38);
+    position: relative;
+    /* creates rectamgle for flag */
+    width: 900px;
+    height: 600px;
+} 
+
+/* targets the 1st div in .flag class */
+.flag > div {
+    /* colour of midsection */
+    background-color: rgb(0, 40, 104);
+    /* has to be 100% of its parent so it would be 900px */
+    width: 100%;
+    /* half the height of full flag */
+    height: 300px;
+    position: absolute;
+    /* 150px is 1/4 of 600px for height */
+    top: 150px;
+}
+
+/* the .flag class has a kid div which also has a kid div */
+/* 3 levels */
+.flag > div > div {
+    background-color: white;
+    /* circle element */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 350px;
+}
+
+p {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+}
+
+/* select targetting selector through inspection */
+body > div > div > div > p {
+    color: black;
+}
