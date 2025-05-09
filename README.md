@@ -1,6 +1,6 @@
-# ss-7-css-flag
-
-Mini project combining the skills of:
-    - CSS Specificity and Inheritance
-    - Combining CSS selectors
-    - CSS positioning
+# CSS Flag
+***
+Mini project combining the understanding of:
+* CSS Specificity and Inheritance
+* Combining CSS selectors
+* CSS positioning
